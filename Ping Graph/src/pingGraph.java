@@ -63,7 +63,7 @@ public class pingGraph {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame();
+		frame = new JFrame("Ping graph");
 		frame.setBounds(400, 200, 450, 300);
 		frame.setSize(600, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

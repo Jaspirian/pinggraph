@@ -31,7 +31,7 @@ public class graph {
 		dataset.addSeries(data);
 		
 		chart = ChartFactory.createXYLineChart(
-				 "Ping", // Title
+				 "", // Title
 				 "", // x-axis Label
 				 "ms", // y-axis Label
 				 dataset, // Dataset
