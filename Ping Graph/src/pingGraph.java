@@ -63,7 +63,7 @@ public class pingGraph {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame("Ping graph");
+		frame = new JFrame("Ping graph 1.1");
 		frame.setBounds(400, 200, 450, 300);
 		frame.setSize(600, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -337,9 +337,9 @@ public class pingGraph {
 		chckbxAddress.addActionListener(new toggleVisibility(addressPanel));
 		compPanel.add(chckbxAddress);
 		
-		JCheckBox chckbxPingPts = new JCheckBox("Ping pts");
-		chckbxPingPts.addActionListener(new toggleVisibility(pointPanel));
-		compPanel.add(chckbxPingPts);
+		JCheckBox chckbxBreakpts = new JCheckBox("Break pts");
+		chckbxBreakpts.addActionListener(new toggleVisibility(pointPanel));
+		compPanel.add(chckbxBreakpts);
 		
 		JCheckBox chckbxTiming = new JCheckBox("Timing");
 		chckbxTiming.addActionListener(new toggleVisibility(timingPanel));
